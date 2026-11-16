@@ -1,10 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>解谜简史</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+
+    <!-- ==================== 背景装饰 ==================== -->
+    <div class="background">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+
+        <div class="stars">
+            <span style="--x: 8%; --y: 18%; --size: 2px;"></span>
+            <span style="--x: 18%; --y: 62%; --size: 3px;"></span>
+            <span style="--x: 25%; --y: 25%; --size: 2px;"></span>
+            <span style="--x: 36%; --y: 15%; --size: 3px;"></span>
+            <span style="--x: 49%; --y: 68%; --size: 2px;"></span>
+            <span style="--x: 58%; --y: 22%; --size: 2px;"></span>
+            <span style="--x: 67%; --y: 52%; --size: 3px;"></span>
+            <span style="--x: 76%; --y: 19%; --size: 2px;"></span>
+            <span style="--x: 84%; --y: 70%; --size: 3px;"></span>
+            <span style="--x: 92%; --y: 31%; --size: 2px;"></span>
+        </div>
+    </div>
+
+
+    <!-- ==================== 导航栏 ==================== -->
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">谜研档案</span>
+            </a>
+
+
+            <!-- 导航 -->
+            <nav class="nav-menu">
+
+                <a href="#" class="nav-link active">
+                    <span class="nav-icon">⌂</span>
+                    首页
+                </a>
+
+                <a href="#" class="nav-link">
+                    <span class="nav-icon">◇</span>
+                    谜题档案
+                </a>
+
+                <a href="#" class="nav-link">
+                    <span class="nav-icon">▤</span>
+                    谜题文献
+                </a>
+
+                <a href="#" class="nav-link">
+                    <span class="nav-icon">♙</span>
+                    解谜人物
+                </a>
+
+                <a href="#" class="nav-link">
+                    <span class="nav-icon">◈</span>
+                    解谜活动
+                </a>
+
+                <a href="#" class="nav-link">
+                    <span class="nav-icon">⌘</span>
+                    研究资源
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==================== 页面主体 ==================== -->
+    <main class="container">
+
+        <!-- 简单标题 -->
+        <section class="intro">
+
+            <div class="intro-tag">
+                PUZZLE MUSEUM
+            </div>
+
+            <h1>
+                All The Puzzles
+            </h1>
+
+            <p>
+                收录谜题、历史文献、解谜人物与活动资料，
+                建立属于世界解谜的数字档案馆。
+            </p>
+
+        </section>
+
+
+        <!-- ==================== 卡片示例 ==================== -->
+        <section class="card-grid">
+
+            <!-- 卡片 1 -->
+            <article class="archive-card blue">
+
+                <div class="card-icon">
+                    ◇
+                </div>
+
+                <div class="card-content">
+                    <span class="card-category">PUZZLE ARCHIVE</span>
+
+                    <h2>谜题档案</h2>
+
+                    <p>
+                        收录经典谜题、逻辑题、密码题与历史谜题，
+                        建立完整的谜题分类档案。
+                    </p>
+
+                    <a href="#" class="card-button">
+                        浏览档案
+                        <span>→</span>
+                    </a>
+                </div>
+
+            </article>
+
+
+            <!-- 卡片 2 -->
+            <article class="archive-card purple">
+
+                <div class="card-icon">
+                    ▤
+                </div>
+
+                <div class="card-content">
+                    <span class="card-category">PUZZLE LITERATURE</span>
+
+                    <h2>谜题文献</h2>
+
+                    <p>
+                        整理谜题相关论文、书籍、历史资料以及
+                        各类解谜文化研究文章。
+                    </p>
+
+                    <a href="#" class="card-button">
+                        查看文献
+                        <span>→</span>
+                    </a>
+                </div>
+
+            </article>
+
+
+            <!-- 卡片 3 -->
+            <article class="archive-card pink">
+
+                <div class="card-icon">
+                    ♙
+                </div>
+
+                <div class="card-content">
+                    <span class="card-category">PUZZLE PEOPLE</span>
+
+                    <h2>人物介绍</h2>
+
+                    <p>
+                        记录谜题设计者、密码学家、解谜者
+                        以及谜题文化中的重要人物。
+                    </p>
+
+                    <a href="#" class="card-button">
+                        探索人物
+                        <span>→</span>
+                    </a>
+                </div>
+
+            </article>
+
+        </section>
+
+    </main>
 
 </body>
 </html>
